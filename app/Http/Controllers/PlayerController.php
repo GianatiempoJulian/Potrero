@@ -14,6 +14,13 @@ class PlayerController extends Controller
     {
         $players = Player::where('created_by', auth()->user()->id)->get();
 
+        $teams = Team::where('created_by', auth()->user()->id)->get();
+
+        if (count($teams) == 0) {
+            return redirect('/equipos/nuevo')->withErrors([
+                'error_msg' => 'Debes tener minimo un equipo.'
+            ]);
+        }
         if (count($players) == NULL) {
             return redirect('/jugadores/nuevo')->withErrors([
                 'error_msg' => 'La lista de jugadores esta vacia. Cargue minimo uno.'

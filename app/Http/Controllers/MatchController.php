@@ -225,7 +225,7 @@ class MatchController extends Controller
       'team2_id' => $request['team_id'][1],
       'team1_goals' => $request['team_goals'][0],
       'team2_goals' => $request['team_goals'][1],
-      'max_scorer_name' =>  Player::where('player_id', $max_scorer_id)->first()->first_name,
+      'max_scorer_name' =>  Player::where('player_id', $max_scorer_id)->first()->last_name,
       'max_scorer_amount' =>  max($request['today_goals']),
       'created_by' => auth()->user()->id
     ]);

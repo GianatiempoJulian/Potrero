@@ -119,7 +119,6 @@ class TeamController extends Controller
       $players = Player::where('created_by', auth()->user()->id)->where('team_id', $request['team_id'])->get();
       foreach ($players as $player) {
         $player->team_id = NULL;
-        $player->team_name = "Jugador Libre";
         $player->update();
       }
 
