@@ -1,3 +1,7 @@
+<h1 align="center" id="title">Potrero</h1>
+
+<p align="center"><img src="https://socialify.git.ci/GianatiempoJulian/Potrero/image?description=1&amp;descriptionEditable=A%20website%20where%20you%20can%20save%20your%20football%20matches!&amp;font=Jost&amp;name=1&amp;pattern=Solid&amp;theme=Dark" alt="project-image"></p>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
