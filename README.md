@@ -44,7 +44,11 @@ A website where you can save your football matches!
 
 
 ## 🚀 About Me
-I'm a back-end developer. I like to work with PHP, Laravel and Java. But, I can work with a lot of technologies of front-end too.
+I'm a back-end developer. I like to work with PHP, Laravel and Java. But, I can work with a lot of technologies of front-end too. 
+You can contact with me in:
+https://www.linkedin.com/in/jgianatiempo/
+-or-
+https://gianatiempo.000webhostapp.com/
 
 
 ## 💻 Technologies
