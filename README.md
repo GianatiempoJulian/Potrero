@@ -8,8 +8,6 @@ A website where you can save your football matches!
 
 ## 📷 Screenshots
 
-## 📷 Screenshots
-
 ### 🖥 PC
 
 #### Team List:
