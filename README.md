@@ -8,7 +8,41 @@ A website where you can save your football matches!
 
 ## 📷 Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+## 📷 Screenshots
+
+### 🖥 PC
+
+#### Team List:
+[![Lista-equipos.png](https://i.postimg.cc/5yMnsF9m/Lista-equipos.png)](https://postimg.cc/JDPNn0ky)
+
+### Player List:
+[![Lista-jugadores.png](https://i.postimg.cc/Pfm6PKKV/Lista-jugadores.png)](https://postimg.cc/PN5b7Wg1)
+
+### Saving a match:
+[![cargar-partido.png](https://i.postimg.cc/3wVLDcPV/cargar-partido.png)](https://postimg.cc/mc33v8Zy)
+
+### Last match:
+[![last-match.png](https://i.postimg.cc/T1qQFYpv/last-match.png)](https://postimg.cc/GTtksRFX)
+
+### Record:
+[![historial.png](https://i.postimg.cc/tgYSJjmF/historial.png)](https://postimg.cc/qtHXD9r7)
+
+### 📱 Mobile
+
+#### Team List:
+[![Lista-equipos-mb.png](https://i.postimg.cc/7ZPQv73s/Lista-equipos-mb.png)](https://postimg.cc/mtqSCP6C)
+
+### Player List:
+[![Lista-jugadores-mb.png](https://i.postimg.cc/3RGtjZhR/Lista-jugadores-mb.png)](https://postimg.cc/tZXdpWYQ)
+
+### Saving a match:
+[![cargar-partido-mb.png](https://i.postimg.cc/qq8ZrxDY/cargar-partido-mb.png)](https://postimg.cc/zHGkSKrS)
+
+### Last match:
+[![last-match-mb.png](https://i.postimg.cc/7YnQQX2J/last-match-mb.png)](https://postimg.cc/ZC0cW8jJ)
+
+### Record:
+[![historial-mb.png](https://i.postimg.cc/8PS0HxjV/historial-mb.png)](https://postimg.cc/BtmpZYTh)
 
 
 ## 🚀 About Me
