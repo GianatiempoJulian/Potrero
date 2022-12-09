@@ -1,0 +1,1300 @@
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        font-family: 'Manrope', sans-serif;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    body {
+        background-color: #292929;
+    }
+    /*
+html,
+main,
+body {
+    height: 100%;
+}*/
+    /***** INICIO *****/
+    /*//////////////////////////*/
+    
+    .main-container {
+        width: 100%;
+        height: 100vh;
+        background-color: #292929;
+    }
+    
+    .main-content {
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+    }
+    
+    .main-content h1 {
+        font-size: 70px;
+        margin-top: 80px;
+        color: #fff;
+    }
+    
+    .main-content p {
+        margin: 20px auto;
+        font-weight: 100;
+        line-height: 25px;
+        color: #fff;
+    }
+    
+    .main-button-container button {
+        width: 200px;
+        height: 50px;
+        padding: 15px 0px;
+        text-align: center;
+        margin: 20px 10px;
+        border-radius: 25px;
+        font-weight: bold;
+        border: none;
+        transition: 0.5s;
+        position: relative;
+        overflow: hidden;
+        background-color: #ea4335;
+    }
+    
+    .main-button-container button:hover {
+        background-color: #ef5c4e;
+    }
+    
+    .main-button-container button a {
+        text-decoration: none;
+        color: #fff;
+        width: 100%;
+    }
+    
+    .main-social-container ul {
+        list-style: none;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        gap: 10px;
+    }
+    
+    .main-social-container ul li a img {
+        width: 40px;
+        height: 40px;
+    }
+    /*//////////////////////////*/
+    /***** REGISTRO USUARIO *****/
+    /*//////////////////////////*/
+    
+    .hero {
+        width: 100%;
+        min-height: 100vh;
+        background-color: #292929;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .hero h1 {
+        color: #fff;
+        font-weight: 500;
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+    
+    .session-box {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 90%;
+        max-width: 800px;
+        background-color: #fff;
+    }
+    
+    .left-box {
+        padding: 50px;
+        background-color: #ea4335;
+        flex-basis: 50%;
+        flex-grow: 1;
+        color: #fff;
+    }
+    
+    .input-box {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #fff;
+        outline: none;
+        color: #fff;
+        font-size: 12px;
+        background: transparent;
+    }
+    
+    .input-box option {
+        background-color: #ea4335;
+    }
+    
+    .input-box::placeholder {
+        color: #fff;
+    }
+    
+    #terms {
+        margin-top: 30px;
+    }
+    
+    .left-box label,
+    .login-box label,
+    .general-data-box label {
+        font-size: 14px;
+    }
+    
+    .left-box button,
+    .login-box button,
+    .general-data-box button {
+        width: 100%;
+        background-color: #fff;
+        padding: 10px;
+        border: 0;
+        outline: none;
+        font-size: 16px;
+        margin-top: 20px;
+        transition: background 0.5s;
+    }
+    
+    .left-box button:hover,
+    .login-box button:hover,
+    .general-data-box button:hover {
+        background-color: #9b3128;
+    }
+    
+    .right-box {
+        padding: 50px;
+        flex-basis: 50%;
+        flex-grow: 1;
+    }
+    
+    .right-box a {
+        display: block;
+        width: 100%;
+        margin: 20px 0;
+        min-width: 250px;
+        color: #fff;
+        font-size: 14px;
+        padding: 15px 30px;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+    
+    .right-box a i {
+        font-size: 18px;
+        margin-right: 10px;
+    }
+    
+    #goo-link {
+        background-color: #ea4335;
+    }
+    
+    #tw-link {
+        background-color: #1da1f2;
+    }
+    
+    #fb-link {
+        background-color: #1778f2;
+    }
+    
+    .login-msg {
+        color: #fff;
+        margin-top: 30px;
+        font-size: 15px;
+    }
+    
+    .login-msg a {
+        color: #ea4335;
+        text-decoration: none;
+    }
+    /*//////////////////////////*/
+    /*//////////////////////////*/
+    /***** LOGIN USUARIO *****/
+    
+    .login-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+        background-color: #ea4335;
+        flex-grow: 1;
+        color: #fff;
+    }
+    /*//////////////////////////*/
+    /***** NAV *****/
+    /*//////////////////////////*/
+    
+    .page-logo {
+        height: 100px;
+    }
+    
+    .menu-btn {
+        display: flex;
+        background-color: #ea4335;
+        color: white;
+        padding: 10px;
+        border: none;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 500;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    
+    .menu-btn {
+        font-size: 15px;
+        font-weight: 800;
+    }
+    
+    .menu-btn i {
+        font-size: 20px;
+        margin-bottom: 3px;
+    }
+    
+    .menu-btn:hover {
+        background-color: #ea4335;
+        transition: ease 0.2s;
+    }
+    
+    .dropdown-menu {
+        position: relative;
+        margin: 5px 30px;
+        display: inline-block;
+        max-width: 100px;
+        max-height: 60px;
+    }
+    
+    .logo-styles {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    .menu-content {
+        display: none;
+        position: absolute;
+        min-width: 160px;
+        z-index: 1;
+    }
+    
+    nav {
+        height: 70px;
+        width: 100%;
+        background-color: #ea4335;
+    }
+    
+    .dropdown {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .links,
+    .links-hidden {
+        display: inline-block;
+        color: rgb(255, 255, 255);
+        padding: 12px 16px;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: bold;
+        background-color: #ea4335;
+        width: 100%;
+    }
+    
+    .links-hidden {
+        display: block;
+    }
+    
+    .links {
+        display: inline-block;
+    }
+    
+    .links-hidden:hover,
+    .links:hover {
+        background-color: #ea4335;
+        transition: ease 0.1s;
+    }
+    
+    .dropdown-menu:hover .menu-content {
+        display: block;
+    }
+    
+    .dropdown-menu:hover .menu-btn {
+        transition: ease 0.2s;
+    }
+    
+    .links-hidden:hover,
+    .menu-btn:hover {
+        background-color: #9b3128;
+    }
+    /*//////////////////////////*/
+    /***** LAYOUT GRID *****/
+    /*//////////////////////////*/
+    
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1em;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .grid div {
+        padding: 1em;
+    }
+    /*//////////////////////////*/
+    /***** TEAM-LIST *****/
+    /*//////////////////////////*/
+    
+    .section-name,
+    .section-information {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        color: #fff;
+    }
+    
+    .section-information {
+        background-color: #ea4335;
+        padding: 0px;
+        color: #fff;
+    }
+    
+    .team-grid,
+    .player-grid {
+        margin-left: 10px;
+        display: grid;
+        grid-template-columns: repeat(5, 12%);
+        align-items: center;
+        gap: 1em;
+        padding: 0px !important;
+        justify-items: center;
+        justify-content: center;
+    }
+    
+    .player-grid {
+        grid-template-columns: repeat(6, 12%);
+        grid-auto-rows: 35%;
+        height: 90vh;
+    }
+    
+    .player-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding: 0 15px;
+        align-items: flex-start;
+        height: 250px;
+        width: 200px;
+        border: solid gray 1px;
+    }
+    
+    .player-container h3 {
+        color: #fff;
+    }
+    
+    .player-container-info-title {
+        display: inline;
+        color: #fff;
+    }
+    
+    .player-container-info-data {
+        color: #fff;
+    }
+    
+    .player-container img {
+        margin-bottom: 10px;
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+    }
+    
+    .last-result {
+        background-color: #c7c7c7;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px !important;
+        font-size: 60px;
+    }
+    
+    .winner {
+        color: rgb(19, 125, 19);
+    }
+    
+    .loser {
+        color: rgb(190, 19, 19);
+    }
+    
+    .tie {
+        color: rgb(185, 156, 25);
+        text-shadow: rgb(93, 93, 93) 1px 0px 0px, rgb(93, 93, 93) 0.540302px 0.841471px 0px, rgb(93, 93, 93) -0.416147px 0.909297px 0px, rgb(93, 93, 93) -0.989992px 0.14112px 0px, rgb(93, 93, 93) -0.653644px -0.756802px 0px, rgb(93, 93, 93) 0.283662px -0.958924px 0px, rgb(93, 93, 93) 0.96017px -0.279415px 0px;
+    }
+    /**** PRUEBAS PLAYER LIST ****/
+    
+    .menu-container {
+        display: flex;
+        flex-direction: row;
+        align-content: flex-end;
+        gap: 4em;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        color: #fff;
+    }
+    
+    .player-grid-pruebas {
+        /*
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(1, 90%);
+    align-items: center;
+    padding: 0px !important;
+    justify-items: center;
+    justify-content: center;
+    height: 100%;*/
+        width: 100%;
+        height: 100%;
+        min-height: 100vh;
+        background-color: #292929;
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        justify-items: center;
+    }
+    
+    .player-container-pruebas {
+        display: grid;
+        grid-template-columns: repeat(3, 12%);
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 15px;
+        align-items: center;
+        height: 100px;
+        width: 70%;
+        border: solid gray 1px;
+        flex-wrap: wrap;
+        align-content: space-around;
+        margin-top: 10px;
+    }
+    
+    .player-container-pruebas img,
+    .player-update-container img {
+        margin-bottom: 10px;
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+    }
+    
+    .player-update-container img {
+        margin-bottom: 0px;
+    }
+    
+    .player-container-pruebas h3 {
+        color: #fff;
+    }
+    
+    .player-container-pruebas p {
+        color: rgb(104, 104, 104);
+        font-size: 15px;
+    }
+    
+    .dropdown-menu-pruebas {
+        position: relative;
+        margin: 4px 30px;
+        display: inline-flex;
+        cursor: pointer;
+    }
+    
+    .menu-btn-pruebas {
+        display: inline-flex;
+        background: none;
+        color: white;
+        border: none;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 500;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        cursor: pointer;
+        padding: 10px !important;
+    }
+    
+    .menu-btn-pruebas:nth-child(2):hover {
+        background-color: #ea4335;
+    }
+    
+    .menu-btn-pruebas:nth-child(1):active {
+        background-color: #ea4335;
+    }
+    
+    .dropdown-menu:hover .menu-btn-pruebas {
+        transition: ease 0.2s;
+    }
+    
+    .menu-btn-pruebas:nth-child(2):hover .crud-content {
+        display: block;
+    }
+    
+    .crud-content {
+        position: absolute;
+        display: none;
+        min-width: 160px;
+        z-index: 1;
+        margin-top: 10px;
+        margin-right: 30px;
+    }
+    
+    .crud-links,
+    .crud-links-hidden {
+        display: inline-block;
+        color: rgb(255, 255, 255);
+        padding: 5px 12px;
+        text-decoration: none;
+        font-size: 15px;
+        font-weight: bold;
+        background-color: #ea4335;
+        width: 70%;
+        border: none;
+    }
+    
+    .crud-links-hidden {
+        display: block;
+    }
+    
+    .crud-links-hidden:hover {
+        background-color: #9b3128;
+    }
+    
+    .dropdown-player-info {
+        transition: all 1s;
+        width: 70%;
+        height: 150px;
+        background-color: #eaeaea;
+        grid-template-columns: repeat(4, 25%);
+        align-content: center;
+        justify-content: space-evenly;
+    }
+    
+    .player-container-info-data-prueba {
+        color: #292929;
+        display: flex;
+        color: #292929;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+    }
+    
+    .player-container-info-data-prueba img {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .important-delete-btn {
+        background-color: #ba0e1f;
+    }
+    /**** END PRUEBAS PLAYER LIST ****/
+    /**** EDIT PLAYER ****/
+    
+    .edit-config {
+        width: 35%;
+        display: inline;
+    }
+    /**** EOF EDIT PLAYER ****/
+    /*//////////////////////////*/
+    
+    .general-data-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 50px;
+        background-color: #ea4335;
+        flex-grow: 1;
+        color: #fff;
+    }
+    
+    .general-data-box img {
+        height: 80px;
+        width: 80px;
+        display: block;
+        border-radius: 50%;
+        margin-left: 190px;
+    }
+    
+    .form-hero {
+        width: 100%;
+        height: 90vh;
+        background-color: #292929;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .form-hero h1 {
+        color: #fff;
+        font-weight: 500;
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+    
+    .form-box {
+        width: 30%;
+    }
+    /*//////////////////////////*/
+    /*//////////////////////////*/
+    /***** UPDATE-DATA PLAYER LIST *****/
+    /*//////////////////////////*/
+    
+    .team-info-update-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 49%);
+        justify-items: center;
+    }
+    
+    .team-update-grid {
+        display: grid;
+        grid-template-columns: repeat(6, 12%);
+        gap: 1em;
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .match-result {
+        color: #fff;
+    }
+    
+    .player-update-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        border: solid gray 1px;
+        gap: 1em;
+        height: 220px;
+        color: #fff;
+    }
+    
+    .player-update-container img {
+        height: 50px;
+        width: 50px;
+    }
+    
+    .create-end,
+    .update-end,
+    .delete-end {
+        margin: 10px;
+        width: 98%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    
+    .create-end button,
+    .update-end button,
+    .delete-end button {
+        width: 200px;
+        padding: 20px;
+        background-color: #ea4335;
+        border-radius: 5px;
+        color: aliceblue;
+        font-weight: 600;
+        border-style: none;
+    }
+    
+    .custom-input,
+    .file-custom-input,
+    .custom-input-update {
+        border: none;
+        border-bottom: 1px solid #fff;
+        outline: none;
+        text-align: center;
+        padding: 5px 0;
+        background-color: #292929;
+        color: #fff;
+    }
+    /*//////////////////////////*/
+    /***** CREATE PLAYER *****/
+    /*//////////////////////////*/
+    
+    .player-form-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: space-around;
+        gap: 10px;
+        width: 100%;
+        height: 500px;
+    }
+    
+    .player-form-container input {
+        width: 20%;
+    }
+    
+    .file-custom-input {
+        font-size: 15px;
+        width: 20%;
+        color: #75757e;
+    }
+    
+    .create-player-input {
+        text-align: left;
+    }
+    /*//////////////////////////*/
+    /***** DELETE PLAYER *****/
+    
+    .btn-small {
+        background-color: #ea4335;
+        color: white;
+        padding: 5px;
+        border: none;
+        text-decoration: none;
+        font-size: 15px;
+        text-align: center;
+        border-radius: 5%;
+        margin-top: 5px;
+        cursor: pointer;
+    }
+    
+    .btn-delete-match-custom {
+        width: 100%;
+        margin-top: 0px;
+        border-radius: 0%;
+    }
+    /*//////////////////////////*/
+    /***** HISTORIAL *****/
+    /*//////////////////////////*/
+    
+    .match-container,
+    .match-data-container {
+        display: grid;
+        grid-template-columns: repeat(6, 15%);
+        border: solid gray 1px;
+    }
+    
+    .match-container p {
+        width: 100%;
+        color: #fff;
+    }
+    
+    #team1,
+    #team2,
+    #team1_goals,
+    #team2_goals {
+        font-weight: 600;
+    }
+    
+    .match-data-container {
+        background-color: #ea4335;
+        color: #fff;
+    }
+    
+    .match-data-title {
+        font-weight: 600;
+    }
+    /*//////////////////////////*/
+    /***** ALERTAS *****/
+    /*//////////////////////////*/
+    
+    .alert-container {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .alert {
+        position: relative;
+        padding: 0.75rem 1.25rem;
+        border: 1px solid transparent;
+        border-radius: 0.25rem;
+        text-align: center;
+    }
+    
+    .alert-danger {
+        color: #721c24;
+        background-color: #f8d7da;
+        border-color: #f5c6cb;
+    }
+    
+    .error-msg {
+        color: #ff0000;
+        font-size: 15px;
+        opacity: 10px;
+    }
+    /*//////////////////////////*/
+    /***** HISTORIAL *****/
+    
+    .matches-grid {
+        height: 100vh;
+    }
+    /*//////////////////////////*/
+    /*//////////////////////////*/
+    /***** FOOTER *****/
+    /*//////////////////////////*/
+    
+    .main-footer {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        background-color: #373737;
+        padding: 30px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .main-footer ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    
+    .footer-text {
+        color: rgb(226, 226, 226);
+    }
+    
+    .footer-link {
+        color: rgb(104, 104, 104);
+        text-decoration: none;
+    }
+    
+    .footer-link:hover {
+        color: #9b3128;
+    }
+    /*//////////////////////////*/
+    /***** TEAM-LIST *****/
+    
+    .team-list-box {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        width: 100%;
+        height: 100%;
+        background: none;
+        gap: 10px;
+        min-height: 100vh;
+    }
+    
+    .left-team,
+    .right-team {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        flex-basis: 50%;
+        flex-grow: 1;
+        height: 80%;
+        color: #fff;
+        border: solid 1px grey;
+    }
+    
+    .left-team img,
+    .right-team img {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .team-list-data-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        background-color: #ea4335;
+    }
+    
+    .team-list-data {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        color: black;
+    }
+    
+    .team-list-data img {
+        width: 30px;
+        height: 30px;
+        color: #fff;
+        stroke: rgb(255, 255, 255);
+        margin-right: 5px;
+    }
+    /*//////////////////////////*/
+    /************ MEDIA QUERY'S **************/
+    
+    @media (min-width:300px) and (max-width:376px) {
+        .form-box {
+            width: 100%;
+        }
+        .page-logo {
+            margin-top: 10px;
+            height: 50px;
+            transition: ease 0.1s;
+        }
+        .index-logo {
+            height: 60px;
+            margin-bottom: 20px;
+        }
+        /***** NAV *****/
+        /*//////////////////////////*/
+        .menu-btn {
+            color: white;
+            padding: 20px;
+            border: none;
+            text-decoration: none;
+            font-size: 15px;
+            text-align: center;
+            font-size: 0px;
+        }
+        .menu-btn i {
+            font-size: 20px;
+        }
+        .menu-btn:hover {
+            transition: ease 0.2s;
+        }
+        .dropdown-menu {
+            margin: 5px 10px;
+            width: 45px;
+        }
+        .menu-content {
+            display: none;
+            position: absolute;
+            min-width: 100px !important;
+            max-width: 100px !important;
+            z-index: 1;
+        }
+        .links,
+        .links-hidden {
+            display: inline-block;
+            color: rgb(255, 255, 255);
+            padding: 12px 16px;
+            text-decoration: none;
+            font-size: 12px;
+            max-width: 100%;
+        }
+        .links-hidden {
+            display: block;
+        }
+        .links {
+            display: inline-block;
+        }
+        .links-hidden:hover,
+        .links:hover {
+            transition: ease 0.1s;
+        }
+        .dropdown-menu:hover .menu-content {
+            display: block;
+        }
+        .dropdown-menu:hover .menu-btn {
+            transition: ease 0.2s;
+        }
+        /***** TEAM-LIST PRO*****/
+        .team-list-box {
+            display: flex;
+            align-items: center;
+            flex-wrap: nowrap;
+            width: 100%;
+            height: 90%;
+            background: none;
+            gap: 10px;
+            flex-direction: column;
+        }
+        .left-team,
+        .right-team {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+            flex-basis: 50%;
+            flex-grow: 1;
+            height: 100%;
+            color: #fff;
+            border: solid 1px grey;
+        }
+        .left-team img,
+        .right-team img {
+            width: 200px;
+            height: 200px;
+        }
+        .team-list-data-container {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            background-color: #ea4335;
+        }
+        .team-list-data {
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            font-size: 20px;
+            color: black;
+        }
+        .team-list-data img {
+            width: 30px;
+            height: 30px;
+            color: #fff;
+            stroke: rgb(255, 255, 255);
+            margin-right: 5px;
+        }
+        /*//////////////////////////*/
+        /***** TEAM-LIST *****/
+        /*//////////////////////////*/
+        .section-name,
+        .section-information {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+        }
+        .section-information {
+            padding: 0px;
+            border-radius: 5px;
+            margin-bottom: 50px;
+        }
+        .team-grid,
+        .player-grid {
+            height: 100%;
+            display: grid;
+            align-items: center;
+            gap: 1em;
+            padding: 0px !important;
+            grid-template-columns: repeat(2, 39%);
+        }
+        .player-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 15px;
+            align-items: center;
+            height: 200px;
+            width: 150px;
+        }
+        .player-container-info-title {
+            display: none;
+        }
+        .player-container img {
+            margin-bottom: 10px;
+            height: 70px;
+            width: 70px;
+        }
+        .last-result {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0px !important;
+            font-size: 60px;
+        }
+        /*//////////////////////////*/
+        /***** PLAYER-LIST *****/
+        /*//////////////////////////*/
+        .player-grid .player-container {
+            height: 225px;
+        }
+        .player-container h3 {
+            font-size: 11px;
+        }
+        .player-grid-pruebas {
+            margin-left: 0px !important;
+        }
+        /*//////////////////////////*/
+        /***** HISTORIAL *****/
+        /*//////////////////////////*/
+        .match-container,
+        .match-data-container {
+            gap: 5px;
+            justify-items: center;
+            align-items: center;
+            justify-content: space-evenly;
+            text-align: center;
+        }
+        .match-data-container {
+            gap: 8px;
+        }
+        .match-data-container p {
+            font-size: 10px;
+        }
+        .match-container p {
+            font-size: 12px;
+        }
+        /*//////////////////////////*/
+        /***** UPDATE-DATA PLAYER LIST *****/
+        /*//////////////////////////*/
+        .team-info-update-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 48%);
+            justify-items: center;
+            padding: 20px 0px;
+        }
+        .team-update-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 28%);
+            padding: 0px !important;
+        }
+        .team-update-grid h3 {
+            font-size: 11px;
+        }
+        .player-update-container {
+            padding: 10px;
+        }
+        .player-update-container img {
+            height: 50px;
+            width: 50px;
+        }
+        .update-end {
+            margin: 10px 0px;
+            padding: 0px !important;
+        }
+        .update-end button {
+            width: 50%;
+        }
+        .custom-input-update {
+            width: 50px;
+        }
+        /***** CREATE PLAYER *****/
+        /*//////////////////////////*/
+        .player-form-container {
+            height: 400px;
+        }
+        .player-form-container input {
+            width: 100%;
+        }
+        .create-end,
+        .delete-end {
+            margin: 0;
+        }
+        /***** PRUEBAS *****/
+        .player-container-pruebas h3 {
+            font-size: 15px;
+        }
+        .player-container-info-data-prueba {
+            color: #292929;
+            display: flex;
+            color: #292929;
+            flex-direction: column;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            font-size: 15px;
+        }
+        .player-container-pruebas p {
+            font-size: 11px;
+        }
+        .player-container-pruebas {
+            display: grid;
+            grid-template-columns: repeat(3, 12%);
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 0 15px;
+            align-items: center;
+            height: 100px;
+            width: 90%;
+            border: solid gray 1px;
+            flex-wrap: wrap;
+            align-content: space-around;
+            margin-top: 10px;
+            padding: 10px !important;
+        }
+        .player-container-pruebas img {
+            margin-bottom: 10px;
+            height: 60px;
+            width: 60px;
+        }
+        .player-grid-pruebas {
+            margin-left: 10px;
+            display: grid;
+            grid-template-columns: repeat(1, 90%);
+            align-items: center;
+            padding: 0px !important;
+            justify-items: center;
+            justify-content: center;
+            height: 100%;
+            padding: 0px !important;
+        }
+        .dropdown-menu-pruebas {
+            position: relative;
+            cursor: pointer;
+            display: block;
+            margin: 0px;
+            padding: 0px !important;
+        }
+        .dropdown-player-info {
+            transition: all 1s;
+            width: 90%;
+            height: 100px;
+            background-color: #eaeaea;
+            grid-template-columns: repeat(4, 10%);
+            align-content: center;
+            justify-content: space-evenly;
+            padding: 0px !important;
+        }
+        .player-container-info-data-prueba img {
+            width: 50px;
+            height: 50px;
+        }
+        .crud-content {
+            position: absolute;
+            display: none;
+            min-width: 100px;
+            z-index: 1;
+            margin-top: 10px;
+            margin-right: 0px;
+            padding: 15px 0px !important;
+        }
+        .crud-links,
+        .crud-links-hidden {
+            display: inline-block;
+            color: rgb(255, 255, 255);
+            padding: 5px 12px;
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: bold;
+            background-color: #ea4335;
+            width: 70%;
+            border: none;
+            margin: 0px;
+            padding: 10px;
+        }
+        .general-data-box img {
+            height: 60px;
+            width: 60px;
+            display: block;
+            border-radius: 50%;
+            margin-left: 105px;
+        }
+    }
