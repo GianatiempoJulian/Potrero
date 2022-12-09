@@ -1,66 +1,89 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 
+[![logo-bk.png](https://i.postimg.cc/xTzCSJR2/logo-bk.png)](https://postimg.cc/bsq8xvWC)
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+A website where you can save your football matches!
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 📷 Screenshots
 
-## Learning Laravel
+### 🖥 PC
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+#### Team List:
+[![Lista-equipos.png](https://i.postimg.cc/5yMnsF9m/Lista-equipos.png)](https://postimg.cc/JDPNn0ky)
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### Player List:
+[![Lista-jugadores.png](https://i.postimg.cc/Pfm6PKKV/Lista-jugadores.png)](https://postimg.cc/PN5b7Wg1)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Saving a match:
+[![cargar-partido.png](https://i.postimg.cc/3wVLDcPV/cargar-partido.png)](https://postimg.cc/mc33v8Zy)
 
-## Laravel Sponsors
+### Last match:
+[![last-match.png](https://i.postimg.cc/T1qQFYpv/last-match.png)](https://postimg.cc/GTtksRFX)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+### Record:
+[![historial.png](https://i.postimg.cc/tgYSJjmF/historial.png)](https://postimg.cc/qtHXD9r7)
 
-### Premium Partners
+### 📱 Mobile
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+#### Team List:
+[![Lista-equipos-mb.png](https://i.postimg.cc/7ZPQv73s/Lista-equipos-mb.png)](https://postimg.cc/mtqSCP6C)
 
-## Contributing
+### Player List:
+[![Lista-jugadores-mb.png](https://i.postimg.cc/3RGtjZhR/Lista-jugadores-mb.png)](https://postimg.cc/tZXdpWYQ)
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+### Saving a match:
+[![cargar-partido-mb.png](https://i.postimg.cc/qq8ZrxDY/cargar-partido-mb.png)](https://postimg.cc/zHGkSKrS)
 
-## Code of Conduct
+### Last match:
+[![last-match-mb.png](https://i.postimg.cc/7YnQQX2J/last-match-mb.png)](https://postimg.cc/ZC0cW8jJ)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### Record:
+[![historial-mb.png](https://i.postimg.cc/8PS0HxjV/historial-mb.png)](https://postimg.cc/BtmpZYTh)
 
-## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## 🚀 About Me
+I'm a back-end developer. I like to work with PHP, Laravel and Java. But, I can work with a lot of technologies of front-end too. 
+You can contact with me in:
+https://www.linkedin.com/in/jgianatiempo/
+-or-
+https://gianatiempo.000webhostapp.com/
 
-## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## 💻 Technologies
+
+**Client:** Laravel, PHP, Javascript, HTML5, CSS
+
+**Server:** MySQL
+
+
+## 📚 Documentation
+
+**1)** After register, the first one we need to do is create our teams.
+Each user only can have TWO (2) teams. If you want to create one new, you'll need to delete one before.
+
+#### **Teams:**
+
+- **List**: When we have 2 teams, we can see the list of them and them stats.
+- **Create**: For a new team, we only need a name and a picture.
+- **Edit**: We can edit the name of the team.
+- **Delete**: We can delete a team, if the team have players, they won't go to be deleted, only are going to appear like "Free Agents", but, the matches who are vinculated with a team, are going to disappear.
+
+**2)** Then, we need to register our first player! 
+
+#### **Players:**
+
+- **List**: When we have, at least, one player register, we can see him, also, we can see his stats, and we can edit or delete him.
+- **Create**: For create a player, we'll need his first name, his last name,his team and one picture of he.
+- **Edit**: We can edit all the information of our player. Including his game stats.
+- **Delete**: We can delete a player.
+
+**3)** When we have teams and players, we can save our matches! 
+
+#### **Matches:**
+
+- **Record**: Here, we can see all the matches between 2 teams!
+- **Create**: For create a match, we'll need 2 teams, and, at least, one player in each team.
+- **Delete**: We can delete a player.
+- **Last Match**: A graphic of the last match between 2 teams. Here, we can see the players who plays the match, they stats and, in the middle of the screen, we final score.
