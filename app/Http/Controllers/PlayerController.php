@@ -46,8 +46,6 @@ class PlayerController extends Controller
     {
 
         $request = request()->all();
-
-
         $request = request()->validate([
             'team_id' => ['required', 'integer'],
             'picture' => ['required', 'image', 'max:4096'],

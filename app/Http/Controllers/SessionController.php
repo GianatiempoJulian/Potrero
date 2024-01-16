@@ -28,7 +28,6 @@ class SessionController extends Controller
     public function login_verification(Request $request)
     {
       
-
         $credentials = [
             'email' => $request->email,
             'password' => $request->password
